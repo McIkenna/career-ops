@@ -23,6 +23,7 @@ title_filter:
   positive:
     # [CUSTOMIZE] Add keywords matching YOUR target roles
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     # -- AI/ML roles --
     - "AI"
     - "ML"
@@ -45,6 +46,8 @@ title_filter:
     - "Dozent"
     - "Weiterbildung"
 =======
+=======
+>>>>>>> Stashed changes
     # -- Fornt End roles --
     - "Frontend"       # Example: "Frontend Engineer"
     - "Front-end"      # Catch "Front-end Developer" variations
@@ -62,6 +65,9 @@ title_filter:
     - "Spring"
     - "Web"
     - "UI"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     # -- Engineering roles --
     - "Frontend Engineer"
@@ -402,17 +408,23 @@ tracked_companies:
   enabled: true
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - name: Speechmatics
     careers_url: https://job-boards.greenhouse.io/speechmatics
     api: https://boards-api.greenhouse.io/v1/boards/speechmatics/jobs
     notes: "Cambridge UK. Speech recognition platform."
     enabled: true
 =======
+=======
+>>>>>>> Stashed changes
 - name: Palantir
   careers_url: https://www.palantir.com/careers
   scan_method: websearch
   scan_query: 'site:palantir.com/careers "Software Engineer" OR "Frontend"'
   enabled: true
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 - name: Snowflake
@@ -515,6 +527,7 @@ tracked_companies:
   api: https://jobs.ashbyhq.com/superhuman
   enabled: true
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   - name: Travelperk
     careers_url: https://jobs.ashbyhq.com/travelperk
@@ -739,6 +752,8 @@ tracked_companies:
     notes: "Lisbon PT / Remote. AI-native sales platform."
     enabled: true
 =======
+=======
+>>>>>>> Stashed changes
 - name: Mercury
   careers_url: https://mercury.com/jobs
   api: https://jobs.ashbyhq.com/mercury
@@ -1018,5 +1033,9 @@ tracked_companies:
   careers_url: https://www.arintra.com/careers
   scan_method: websearch
   scan_query: 'site:arintra.com/careers "Software Engineer" OR "Frontend"'
+<<<<<<< Updated upstream
+  enabled: true
+>>>>>>> Stashed changes
+=======
   enabled: true
 >>>>>>> Stashed changes
