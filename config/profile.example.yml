@@ -3,50 +3,52 @@
 # This is the single source of truth for your personal data across all modes.
 
 candidate:
-  full_name: "Jane Smith"
-  email: "jane@example.com"
+  full_name: "Ikenna Ifekaonwu"
+  email: "ikenna.ifekaonwu@example.com"
   phone: "+1-555-0123"
-  location: "San Francisco, CA"
-  linkedin: "linkedin.com/in/janesmith"
-  portfolio_url: "https://janesmith.dev"
-  github: "github.com/janesmith"
-  twitter: "https://x.com/janesmith"
+  location: "Chicago, IL"
+  linkedin: "linkedin.com/in/ikenna-ifekaonwu"
+  portfolio_url: "https://ikennaifek.netlify.app/"
+  github: "github.com/McIkenna"
+  # twitter: "https://x.com/ikennaisrael"
 
 target_roles:
   # Your North Star roles — what you're optimizing for
   primary:
-    - "Senior AI Engineer"
-    - "Staff ML Engineer"
+    - "Senior Frontend Engineer"
+    - "Frontend Developer"
   # Archetypes help the evaluation system score fit
   archetypes:
-    - name: "AI/ML Engineer"
-      level: "Senior/Staff"
-      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
-    - name: "AI Product Manager"
+    - name: "Frontend Developer"
       level: "Senior"
+      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
+    - name: "Frontend Developer"
+      level: "Mid-Senior"
       fit: "secondary"
-    - name: "Solutions Architect"
+    - name: "Software Engineer"
       level: "Mid-Senior"
       fit: "adjacent"
 
 narrative:
   # Your professional headline (1 line)
-  headline: "ML Engineer turned AI product builder"
+  headline: "Frontend Engineer with a passion for building scalable web applications"
   # Your exit story — what makes you unique
-  exit_story: "Built and sold my SaaS after 5 years. Now focused on applied AI at scale."
+  exit_story: "Oversee end-to-end project processes, including requirements gathering, analysis, design, testing, and deployment, ensuring timely delivery and alignment with business objectives."
   # Your top 3-5 superpowers
   superpowers:
-    - "End-to-end ML pipelines"
+    - "End-to-end Software Development"
     - "Fast prototyping (idea to prod in 2 weeks)"
     - "Cross-functional communication"
+    - "Mentorship and team leadership"
+    - "Performance optimization and scalability"
   # Proof points — projects, articles, case studies with measurable impact
   proof_points:
-    - name: "Project Alpha"
-      url: "https://janesmith.dev/project-alpha"
-      hero_metric: "Reduced inference latency 40%"
-    - name: "Open Source Tool"
-      url: "https://github.com/janesmith/tool"
-      hero_metric: "2K+ GitHub stars"
+    - name: "Merike E-commerce Platform"
+      url: "https://merike.vercel.app/"
+      hero_metric: "Completed 3 major features, improving user engagement by 25%"
+    - name: "Merike Games"
+      url: "https://mcikenna.github.io/"
+      hero_metric: "Launched 4 games with 10K+ users, demonstrating rapid prototyping skills"
   # Optional: dashboard/demo URL with credentials
   # dashboard:
   #   url: "https://janesmith.dev/demo"
@@ -60,8 +62,8 @@ compensation:
 
 location:
   country: "United States"
-  city: "San Francisco"
-  timezone: "PST"
+  city: "Chicago"
+  timezone: "CST"
   visa_status: "No sponsorship needed"
   # For remote roles outside your country:
   # onsite_availability: "1 week/month in any city"
